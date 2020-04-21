@@ -1,0 +1,28 @@
+{
+    "name": "ihr/sms",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ahmad Sulaiman",
+            "email": "a.sulaiman@ihrjobs.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SMS\\Providers\\SMSServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SMS\\": ""
+        }
+    },
+    "require": {
+        "parkourben99/laravel-sms-clicksend": "^1.4"
+    }
+}
